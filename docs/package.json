@@ -2,6 +2,7 @@
   "name": "docs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rivertam.github.io/generic-inferno-component",
   "dependencies": {
     "inferno": "^3.2.2",
     "inferno-compat": "^3.2.2",
