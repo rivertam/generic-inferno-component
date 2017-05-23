@@ -1,6 +1,6 @@
 {
   "name": "@rivertam/generic-inferno-component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A generic Inferno component boilerplate",
   "main": "./lib/index.js",
   "scripts": {
