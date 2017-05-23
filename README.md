@@ -17,7 +17,7 @@ To get started,
   - Edit docs/config/webpack.config.dev.js and docs/config/webpack.config.prod.js to use your component's project name in the import statements of the docs instead of "@rivertam/generic-inferno-component"
 - Be sure to change the version in package.json!
   - The version in docs/package.json doesn't matter
-- `yarn publish`
+- `yarn publish [--access public]`
   - Publishes the component
   - (see .npmignore) only includes build (`lib`)
   - Updates the docs on the gh-pages branch automatically
