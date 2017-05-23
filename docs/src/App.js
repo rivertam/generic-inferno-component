@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
+import { version } from 'inferno';
+import Component from 'inferno-component';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/styles';
-import logo from './logo.svg';
-import './App.css';
+import Logo from './logo';
 import BasicExample from './BasicExample';
-import BasicExampleText from '!raw!./BasicExample.js';
+import BasicExampleText from '!raw-loader!./BasicExample.js';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Hello this is React Swoop</h2>
+          <h2>Hello this is a generic Inferno component</h2>
         </div>
         <div>
           Documentation incoming!

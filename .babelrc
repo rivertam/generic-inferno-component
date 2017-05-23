@@ -6,10 +6,10 @@
       {
         "modules": false
       }
-    ],
-    "react"
+    ]
   ],
   "plugins": [
+    "inferno",
     "external-helpers"
   ]
 }

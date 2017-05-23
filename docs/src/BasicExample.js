@@ -1,8 +1,8 @@
-import React from 'react';
-import Swoop from '@rivertam/generic-component';
+import Inferno from 'inferno';
+import Generic from '@rivertam/generic-inferno-component';
 
 export default function BasicExample() {
   return (
-    <Swoop>Hi <span role="img" aria-label="heart">❤️</span></Swoop>
+    <Generic>Hi <span role="img" aria-label="heart">❤️</span></Generic>
   );
 }

@@ -12,11 +12,9 @@ export default {
     }),
   ],
   external: [
-    'react',
-    'prop-types',
+    'inferno',
   ],
   globals: {
-    react: 'React',
-    'prop-types': 'PropTypes',
+    inferno: 'Inferno',
   },
 };
